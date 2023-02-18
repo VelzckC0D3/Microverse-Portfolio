@@ -12,10 +12,6 @@
   list-style: none;
 }
 
-body {
-  height: 419rem;
-}
-
 #toolbar {
   display: flex;
   align-items: center;
@@ -62,7 +58,6 @@ body {
 .primary {
   font-family: "Inter", sans-serif;
   font-size: 1.875rem;
-  line-height: 3.25rem;
   padding: 0 0.75rem;
   color: var(--pColor);
   line-height: 2.666rem;
@@ -118,7 +113,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0rem;
+  padding: 0;
   gap: 1.5rem;
   height: 7rem;
 }
@@ -134,7 +129,6 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
-
   height: 185rem;
   gap: 1.5rem;
   padding: 0.25rem 0.125rem;
@@ -156,8 +150,8 @@ body {
   gap: 1rem;
   height: 13rem;
   left: calc(50% - 20rem / 2);
-  bottom: 0rem;
-  background: #ffffff;
+  bottom: 0;
+  background: #fff;
   border-radius: 0.5rem;
 }
 
@@ -213,10 +207,10 @@ body {
 }
 
 .buttom {
-  font-family: "Inter";
+  font-family: "inter", sans-serif;
   font-size: 1rem;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   border: none;
   background: none;
 }
@@ -269,7 +263,7 @@ body {
 .abt-h3 {
   width: 337px;
   height: 32px;
-  font-family: "Inter";
+  font-family: "inter", sans-serif;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
@@ -287,9 +281,9 @@ body {
 .tags-abt {
   padding: 0.4rem;
   height: 0.7rem;
-  background: #ffffff;
+  background: #fff;
   border-radius: 0.5rem;
-  font-family: "Inter";
+  font-family: "inter", sans-serif;
   font-size: 9px;
   line-height: 12px;
   letter-spacing: 0.03em;
