@@ -220,3 +220,78 @@ body {
   border: none;
   background: none;
 }
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem 2rem;
+  gap: 3rem;
+  height: 18.75rem;
+  background-image: url(illustration-about-me.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#grid-about {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1.5rem;
+  transform: translateY(180px);
+}
+
+.box-about {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 20rem;
+  height: 22rem;
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+.titles-tags {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 6rem;
+  left: calc(50% - 20rem / 2);
+  bottom: 4.5rem;
+  gap: 1.5rem;
+}
+
+.abt-h3 {
+  width: 337px;
+  height: 32px;
+  font-family: "Inter";
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+}
+
+.tags-lists-abt-ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.tags-abt {
+  padding: 0.4rem;
+  height: 0.7rem;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  font-family: "Inter";
+  font-size: 9px;
+  line-height: 12px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+}
