@@ -15,7 +15,7 @@
 body {
   width: 375px;
   height: 6715px;
-  background: #ffffff;
+  background: #fff;
 }
 
 header {
@@ -124,7 +124,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 327px;
   height: 125px;
@@ -166,8 +166,8 @@ header {
   width: 327px;
   height: 222px;
   left: calc(50% - 327px / 2);
-  bottom: 0px;
-  background: #ffffff;
+  bottom: 0;
+  background: #fff;
   border-radius: 8px;
 }
 
@@ -217,7 +217,7 @@ header {
   left: 331px;
   top: calc(50% - 48px / 2 - 76.5px);
   background: #36b37f;
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
 
@@ -235,7 +235,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 58px;
-  padding: 64px 0px;
+  padding: 64px 0;
   width: 375px;
   height: 1625px;
   top: 3927px;
@@ -278,7 +278,7 @@ header {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
   border: none;
   background: none;
 }
@@ -289,7 +289,7 @@ header {
   left: 331px;
   top: calc(50% - 48px / 2 - 76.5px);
   background: #36b37f;
-  box-shadow: 0px 8px 16px rgba(54, 179, 127, 0.24);
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }
 
@@ -339,9 +339,7 @@ header {
 .abt-h3 {
   width: 337px;
   height: 32px;
-  font-family: "Inter" sans-serif;
-  font-style: normal;
-  font-weight: 600;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
