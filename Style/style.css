@@ -183,6 +183,7 @@ header {
 #info-box-tag {
   width: 100%;
   overflow: auto;
+  float: left;
 }
 
 #info-tags {
