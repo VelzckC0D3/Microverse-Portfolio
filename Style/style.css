@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  /* position: fixed; */
+  position: fixed;
   width: 375px;
   height: 92px;
 }
@@ -178,6 +178,74 @@ header {
   line-height: 32px;
   letter-spacing: 0.1rem;
   color: #3a4a42;
+}
+
+#info-box-tag {
+  width: 100%;
+  overflow: auto;
+}
+
+#info-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ruby-tag {
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  width: 89px;
+  height: 33px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 11px;
+  color: #3a4a42;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin: 5px;
+  line-height: 33px;
+}
+
+.css-tag {
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  width: 45px;
+  height: 33px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 11px;
+  color: #3a4a42;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin: 5px;
+  line-height: 33px;
+}
+
+.javascrip-tag {
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  width: 63px;
+  height: 33px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 11px;
+  color: #3a4a42;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin: 5px;
+  line-height: 33px;
+}
+
+.html-tag {
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  width: 46px;
+  height: 33px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 11px;
+  color: #3a4a42;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin: 5px;
+  line-height: 33px;
 }
 
 .action {
