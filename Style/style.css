@@ -420,9 +420,52 @@ header {
   height: 92px;
 }
 
-.icon-cont {
-  width: 327px;
-  height: 128px;
-  left: calc(50% - 327px / 2);
-  top: 16px;
+.tags-abt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-abt {
+  background-color: #fff;
+  border-radius: 4px;
+  width: 90px;
+  height: 33px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 11px;
+  color: #36b37e;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin: 5px;
+  line-height: 33px;
+}
+
+.medium-abt {
+  background-color: #fff;
+  border-radius: 4px;
+  width: 70px;
+  height: 33px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 11px;
+  color: #36b37e;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin: 5px;
+  line-height: 33px;
+}
+
+.small-abt {
+  background-color: #fff;
+  border-radius: 4px;
+  width: 46px;
+  height: 33px;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 11px;
+  color: #36b37e;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin: 5px;
+  line-height: 33px;
 }
