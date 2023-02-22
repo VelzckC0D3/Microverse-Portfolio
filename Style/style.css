@@ -8,29 +8,17 @@
   padding: 0;
   text-align: center;
   list-style: none;
-}
-
-body {
-  width: 375px;
-  height: 6715px;
-  background: #fff;
-}
-
-header {
-  position: fixed;
-  width: 375px;
-  height: 92px;
+  border: none;
 }
 
 #toolbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  top: 44px;
 }
 
 #welcome {
-  font-family: "Inter Tight", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   letter-spacing: 1px;
   color: #28352f;
@@ -44,12 +32,6 @@ header {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-}
-
-#background {
-  position: absolute;
-  left: -126.38px;
-  top: 98.12px;
 }
 
 #headline {
@@ -77,8 +59,9 @@ header {
 }
 
 .supportingtxt {
-  height: 10.25rem;
-  font-family: "Inter Tight", sans-serif;
+  width: 327px;
+  height: 164px;
+  font-family: "Inter", sans-serif;
   font-size: 1.25rem;
   line-height: 1.75rem;
   text-align: center;
@@ -131,7 +114,7 @@ header {
 .indicator {
   width: 48px;
   height: 4px;
-  background: #36b37e;
+  background: var(--sColor);
   border-radius: 24px;
 }
 
@@ -170,7 +153,7 @@ header {
 }
 
 .box-name {
-  font-family: "Inter Tight", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 1.4rem;
   line-height: 32px;
@@ -191,12 +174,12 @@ header {
   align-items: center;
 }
 
-.ruby-tag {
+.big-tag {
   background-color: #ebf0ee;
   border-radius: 4px;
   width: 89px;
   height: 33px;
-  font-family: "Inter Tight", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 11px;
   color: #3a4a42;
   font-weight: bold;
@@ -205,26 +188,12 @@ header {
   line-height: 33px;
 }
 
-.css-tag {
-  background-color: #ebf0ee;
-  border-radius: 4px;
-  width: 45px;
-  height: 33px;
-  font-family: "Inter Tight", sans-serif;
-  font-size: 11px;
-  color: #3a4a42;
-  font-weight: bold;
-  letter-spacing: 0.03em;
-  margin: 5px;
-  line-height: 33px;
-}
-
-.javascrip-tag {
+.medium-tag {
   background-color: #ebf0ee;
   border-radius: 4px;
   width: 63px;
   height: 33px;
-  font-family: "Inter Tight", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 11px;
   color: #3a4a42;
   font-weight: bold;
@@ -233,12 +202,12 @@ header {
   line-height: 33px;
 }
 
-.html-tag {
+.small-tag {
   background-color: #ebf0ee;
   border-radius: 4px;
   width: 46px;
   height: 33px;
-  font-family: "Inter Tight", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 11px;
   color: #3a4a42;
   font-weight: bold;
@@ -256,31 +225,24 @@ header {
   padding: 0.75rem;
 }
 
-.green-btm {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 12px;
-  gap: 10px;
-  width: 85px;
-  height: 20px;
+.small-buttom {
+  width: 120px;
+  height: 45px;
   background: #36b37f;
   border-radius: 4px;
-}
-
-.buttom {
-  font-family: "inter", sans-serif;
-  font-size: 0.9rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
   text-align: center;
+  letter-spacing: 0.03em;
   color: #fff;
-  border: none;
-  background: none;
 }
 
-.buttom:hover {
-  width: 120px;
-  height: 48px;
+.small-buttom:hover {
+  width: 125px;
+  height: 50px;
   left: 331px;
   top: calc(50% - 48px / 2 - 76.5px);
   background: #36b37f;
@@ -288,9 +250,9 @@ header {
   border-radius: 4px;
 }
 
-.buttom:active {
-  width: 120px;
-  height: 48px;
+.small-buttom:active {
+  width: 125px;
+  height: 50px;
   left: 551px;
   top: calc(50% - 48px / 2 - 76.5px);
   background: #008552;
@@ -303,9 +265,6 @@ header {
   align-items: center;
   gap: 58px;
   padding: 64px 0;
-  width: 375px;
-  height: 1625px;
-  top: 3927px;
 }
 
 #aboutmetxt {
@@ -320,39 +279,24 @@ header {
   background-position: center;
 }
 
-.green-btm-gmr {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 12px;
-  gap: 10px;
-  width: 130px;
-  height: 20px;
+.big-buttom {
+  width: 150px;
+  height: 48px;
   background: #36b37f;
   border-radius: 4px;
-}
-
-.buttomgmr {
-  width: 135px;
-  height: 24px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  border: none;
-  background: none;
 }
 
-.buttomgmr:hover {
-  width: 120px;
-  height: 48px;
+.big-buttom:hover {
+  width: 155px;
+  height: 55px;
   left: 331px;
   top: calc(50% - 48px / 2 - 76.5px);
   background: #36b37f;
@@ -360,9 +304,9 @@ header {
   border-radius: 4px;
 }
 
-.buttomgmr:active {
-  width: 120px;
-  height: 48px;
+.big-buttom:active {
+  width: 155px;
+  height: 55px;
   left: 551px;
   top: calc(50% - 48px / 2 - 76.5px);
   background: #008552;
@@ -431,9 +375,9 @@ header {
   border-radius: 4px;
   width: 90px;
   height: 33px;
-  font-family: "Inter Tight", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 11px;
-  color: #36b37e;
+  color: var(--sColor);
   font-weight: bold;
   letter-spacing: 0.03em;
   margin: 5px;
@@ -445,9 +389,9 @@ header {
   border-radius: 4px;
   width: 70px;
   height: 33px;
-  font-family: "Inter Tight", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 11px;
-  color: #36b37e;
+  color: var(--sColor);
   font-weight: bold;
   letter-spacing: 0.03em;
   margin: 5px;
@@ -459,11 +403,130 @@ header {
   border-radius: 4px;
   width: 46px;
   height: 33px;
-  font-family: "Inter Tight", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 11px;
-  color: #36b37e;
+  color: var(--sColor);
   font-weight: bold;
   letter-spacing: 0.03em;
   margin: 5px;
   line-height: 33px;
+}
+
+#form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+  gap: 58px;
+  background-image: url(/Style/Forms/background-form.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+#form-main-text {
+  width: 327px;
+  height: 363px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: var(--pColor);
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 327px;
+  height: 330px;
+}
+
+.forms-fields {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.name-field {
+  width: 327px;
+  height: 48px;
+  margin: 12px;
+  padding: 16px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  color: #6b778c;
+}
+
+.email-field {
+  width: 327px;
+  height: 48px;
+  margin: 12px;
+  padding: 16px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  color: #6b778c;
+}
+
+.text-field {
+  width: 327px;
+  height: 114px;
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: left;
+  margin: 12px;
+}
+
+.text-field::placeholder {
+  padding: 15px;
+  color: #091e42;
+}
+
+#social-cont-form {
+  transform: translateY(35px);
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-text {
+  width: 375px;
+  height: 189px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  transform: translateY(10px);
 }
