@@ -31,7 +31,7 @@
 - [📝 License](#license)
 
 
-# 📖 Linters Base <a name="about-project"></a>
+# 📖 Portfolio Project <a name="about-project"></a>
 
 
 **Portfolio Project** is a project about making a mobile responsive web portfolio
