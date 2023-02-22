@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="Readme/Umbrella.png" alt="logo" width="140"  height="auto" />
+  <img src=".Readme/Umbrella.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Portfolio Project</b></h3>
@@ -165,6 +165,6 @@ I would like to thanks to a Microverse fort the support!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](Readme/LICENSE) licensed.
+This project is [MIT](.Readme/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
