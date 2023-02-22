@@ -127,6 +127,11 @@ You can deploy this project using:
 - GitHub: [@Danfall369](https://github.com/Danfall369)
 - Twitter: [@Danfall369](https://twitter.com/Danfall369)
 
+👤 **Jose Berbesí**
+
+- GitHub: [imberbesi](https://github.com/imberbesi)
+- Gmail: (jlberbessi@gmail.com)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
