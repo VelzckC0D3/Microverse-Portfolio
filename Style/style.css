@@ -25,8 +25,6 @@
 }
 
 #menu {
-  left: 311px;
-  top: 4px;
   border-radius: 8px;
   padding: 8px;
   display: flex;
@@ -40,7 +38,6 @@
   align-items: center;
   padding: 64px 24px;
   gap: 58px;
-  top: 92px;
   background-image: url(header-illsutration-mobile.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -64,23 +61,16 @@
   font-family: "Inter", sans-serif;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  text-align: center;
   color: var(--pColor);
 }
 
 #social-media-icons {
   display: flex;
-  justify-content: center;
-  width: 100%;
   align-items: center;
 }
 
 .media-icon {
-  padding: 0 0.5rem;
-}
-
-#medium {
-  transform: translateY(2px);
+  margin: 10px;
 }
 
 .arrow {
@@ -500,11 +490,18 @@
   line-height: 24px;
   text-align: left;
   margin: 12px;
+  background-image: url(/Style/Forms/Icon\ Text\ area.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .text-field::placeholder {
   padding: 15px;
   color: #091e42;
+}
+
+.text-field::-webkit-resizer {
+  background-color: transparent;
 }
 
 #social-cont-form {
@@ -519,8 +516,6 @@
 }
 
 #footer-text {
-  width: 375px;
-  height: 189px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
