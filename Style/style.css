@@ -817,6 +817,11 @@ html {
   color: #6b778c;
 }
 
+.name-field:hover {
+  transform: translate(1rem);
+  border-color: var(--sColor);
+}
+
 .email-field {
   width: 20.438rem;
   height: 3rem;
@@ -835,11 +840,16 @@ html {
   color: #6b778c;
 }
 
+.email-field:hover {
+  transform: translate(1rem);
+  border-color: var(--sColor);
+}
+
 .text-field {
   width: 20.438rem;
   height: 7.125rem;
   background: #fff;
-  border: 1px solid #60c095;
+  border: 1px solid #d0d9d4;
   border-radius: 4px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -860,6 +870,11 @@ html {
 
 .text-field::-webkit-resizer {
   background-color: transparent;
+}
+
+.text-field:hover {
+  transform: translate(1rem);
+  border-color: var(--sColor);
 }
 
 @media screen and (min-width: 768px) {
