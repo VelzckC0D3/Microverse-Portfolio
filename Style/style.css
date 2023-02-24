@@ -232,6 +232,11 @@ html {
   border-radius: 8px;
 }
 
+.project-box1:hover {
+  border: 2px solid #36b37e;
+  transition: border-color 2s ease;
+}
+
 .project-box2 {
   display: flex;
   flex-direction: column-reverse;
@@ -241,6 +246,11 @@ html {
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+}
+
+.project-box2:hover {
+  border: 2px solid #36b37e;
+  transition: border-color 2s ease;
 }
 
 .project-box3 {
@@ -254,6 +264,11 @@ html {
   border-radius: 8px;
 }
 
+.project-box3:hover {
+  border: 2px solid #36b37e;
+  transition: border-color 2s ease;
+}
+
 .project-box4 {
   display: flex;
   flex-direction: column-reverse;
@@ -263,6 +278,11 @@ html {
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+}
+
+.project-box4:hover {
+  border: 2px solid #36b37e;
+  transition: border-color 2s ease;
 }
 
 .project-box5 {
@@ -276,6 +296,11 @@ html {
   border-radius: 8px;
 }
 
+.project-box5:hover {
+  border: 2px solid #36b37e;
+  transition: border-color 2s ease;
+}
+
 .project-box6 {
   display: flex;
   flex-direction: column-reverse;
@@ -285,6 +310,11 @@ html {
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+}
+
+.project-box6:hover {
+  border: 2px solid #36b37e;
+  transition: border-color 2s ease;
 }
 
 .info-box {
