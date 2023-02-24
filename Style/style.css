@@ -41,7 +41,7 @@
   text-decoration: none;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   #mobilemenu {
     display: none;
   }
@@ -119,7 +119,7 @@
   justify-content: center;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   #headline {
     display: flex;
     flex-direction: column;
@@ -397,7 +397,7 @@
   border-radius: 4px;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   #recentworks {
     display: flex;
     flex-direction: column;
@@ -620,7 +620,7 @@
   line-height: 2.063rem;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   #about-me {
     padding: 5rem 0rem;
     gap: 4rem;
@@ -782,7 +782,7 @@
   background-color: transparent;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   #form-section {
     display: flex;
     flex-direction: row;
@@ -846,7 +846,7 @@
   display: none;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
   #footer-text {
     display: none;
   }
