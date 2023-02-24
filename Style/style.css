@@ -3,6 +3,10 @@
   --sColor: #36b37e;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -39,6 +43,12 @@
 .a-header:link,
 .a-header:visited {
   text-decoration: none;
+}
+
+.txt-menudkt:hover {
+  color: var(--sColor);
+  font-size: 1.5rem;
+  transition: color 0.8s ease;
 }
 
 @media screen and (min-width: 768px) {
