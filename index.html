@@ -14,12 +14,31 @@
 
 <body>
   <header>
-    <div id="toolbar">
-      <p id="welcome">Welcome</p>
-      <nav>
+    <nav id="navigation">
+      <div id="mobilemenu">
+        <p id="welcome">Welcome</p>
         <img id="menu" class="menu-icon" src="Style/icons/menu.svg" alt="menu-icon">
-      </nav>
-    </div>
+      </div>
+      <div id="menudkt">
+        <ul class="menudkt-list">
+          <li>
+            <a class="a-header" href="#recentworks">
+              <p class="txt-menudkt">Portfolio</p>
+            </a>
+          </li>
+          <li>
+            <a class="a-header" href="#about-me">
+              <p class="txt-menudkt">About</p>
+            </a>
+          </li>
+          <li>
+            <a class="a-header" href="#form-section">
+              <p class="txt-menudkt">Contact</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <main>
@@ -54,12 +73,11 @@
 
     <section id="recentworks">
       <div class="maintxt">
-        <h2 class="primary">My Recent<br>
-          Works</h2>
+        <h2 class="primary">My Recent Works</h2>
         <div class="indicator"></div>
       </div>
       <div id="grid-boxs">
-        <div class="project-box">
+        <div class="project-box1">
           <div class="info-box">
             <h3 class="box-name">Multi-Post Stories Gain+Glory</h3>
             <div class="tags-list">
@@ -77,7 +95,7 @@
             </div>
           </div>
         </div>
-        <div class="project-box">
+        <div class="project-box2">
           <div class="info-box">
             <h3 class="box-name">Multi-Post Stories Gain+Glory</h3>
             <div class="tags-list">
@@ -95,7 +113,7 @@
             </div>
           </div>
         </div>
-        <div class="project-box">
+        <div class="project-box3">
           <div class="info-box">
             <h3 class="box-name">Multi-Post Stories Gain+Glory</h3>
             <div class="tags-list">
@@ -113,7 +131,7 @@
             </div>
           </div>
         </div>
-        <div class="project-box">
+        <div class="project-box4">
           <div class="info-box">
             <h3 class="box-name">Multi-Post Stories Gain+Glory</h3>
             <div class="tags-list">
@@ -131,7 +149,7 @@
             </div>
           </div>
         </div>
-        <div class="project-box">
+        <div class="project-box5">
           <div class="info-box">
             <h3 class="box-name">Multi-Post Stories Gain+Glory</h3>
             <div class="tags-list">
@@ -149,7 +167,7 @@
             </div>
           </div>
         </div>
-        <div class="project-box">
+        <div class="project-box6">
           <div class="info-box">
             <h3 class="box-name">Multi-Post Stories Gain+Glory</h3>
             <div class="tags-list">
@@ -171,14 +189,14 @@
     </section>
 
     <section id="about-me">
-      <div id="aboutmetxt" class="maintxt">
+      <div id="aboutmetxt">
         <h2 class="primary">About me</h2>
         <p class="supportingtxt"> I can help you build a product , feature or website Look through some of my work and
           experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
         <button class="big-buttom" type="button">Get My Resume</button>
       </div>
       <div id="grid-about">
-        <div class="box-about">
+        <div class="languages">
           <div class="icon-cont">
             <div class="icon-box"><img src="Style/about me/icon-languages.svg" alt=""> </div>
           </div>
@@ -194,7 +212,7 @@
             </div>
           </div>
         </div>
-        <div class="box-about">
+        <div class="frameworks">
           <div class="icon-cont">
             <div class="icon-box"><img src="Style/about me/icon-frameworks.svg" alt=""> </div>
           </div>
@@ -211,7 +229,7 @@
             </div>
           </div>
         </div>
-        <div class="box-about">
+        <div class="skills">
           <div class="icon-cont">
             <div class="icon-box"><img src="Style/about me/icon-skills.svg" alt=""> </div>
           </div>
@@ -232,8 +250,11 @@
     </section>
 
     <section id="form-section">
-      <p id="form-main-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in
-        touch.</p>
+      <div class="text-form">
+        <p id="form-main-text">I'm always interested in hearing about new projects, so if you'd like to chat please get
+          in
+          touch.</p>
+      </div>
       <div class="forms">
         <form action="https://formspree.io/f/xzbqrany" method="post">
           <fieldset id="forms-fields">
@@ -265,6 +286,22 @@
 
     <footer id="footer">
       <h2 id="footer-text">Falcon-vargas@Hotmail.com</h2>
+      <div id="social-cont-footer">
+        <ul id="social-media-icons">
+          <li><a href="https://twitter.com/Danfall369" target="_blank" rel="noopener"><img id="twitter"
+                class="media-icon" src="Style/Social Media Icons/twitter.svg" alt="twitter"></a></li>
+          <li><a href="https://www.linkedin.com/in/daniel-falcon-009932263/" target="_blank" rel="noopener"><img
+                id="linkedin" class="media-icon" src="Style/Social Media Icons/Linkedin icon.svg" alt="Linkedin"></a>
+          </li>
+          <li><a href="#" rel="noopener"><img id="medium" class="media-icon" src="Style/Social Media Icons/medium.svg"
+                alt="medium"></a>
+          </li>
+          <li><a href="https://github.com/Danfall369" target="_blank" rel="noopener"><img id="github" class="media-icon"
+                src="Style/Social Media Icons/github.svg" alt="github"></a></li>
+          <li><a href="#" rel="noopener"><img id="angellist" class="media-icon"
+                src="Style/Social Media Icons/angellist.svg" alt="angellist"></a></li>
+        </ul>
+      </div>
     </footer>
   </main>
 </body>
