@@ -236,7 +236,7 @@ html {
 .project-box1:hover {
   border: 3px solid #36b37e;
   transition: border-color 1.5s ease;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .project-box2 {
@@ -254,7 +254,7 @@ html {
 .project-box2:hover {
   border: 3px solid #36b37e;
   transition: border-color 1.5s ease;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .project-box3 {
@@ -272,7 +272,7 @@ html {
 .project-box3:hover {
   border: 3px solid #36b37e;
   transition: border-color 1.5s ease;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .project-box4 {
@@ -290,7 +290,7 @@ html {
 .project-box4:hover {
   border: 3px solid #36b37e;
   transition: border-color 1.5s ease;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .project-box5 {
@@ -308,7 +308,7 @@ html {
 .project-box5:hover {
   border: 3px solid #36b37e;
   transition: border-color 1.5s ease;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .project-box6 {
@@ -326,7 +326,7 @@ html {
 .project-box6:hover {
   border: 3px solid #36b37e;
   transition: border-color 1.5s ease;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .info-box {
@@ -582,7 +582,7 @@ html {
 .languages:hover {
   border: 3px solid #172b4d;
   transition: border-color 1.5s ease;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .frameworks {
@@ -600,7 +600,7 @@ html {
 .frameworks:hover {
   border: 3px solid #172b4d;
   transition: border-color 1.5s ease;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .skills {
@@ -618,7 +618,7 @@ html {
 .skills:hover {
   border: 3px solid #172b4d;
   transition: border-color 1.5s ease;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .titles-tags {
