@@ -230,11 +230,13 @@ html {
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  transition: transform 0.2s;
 }
 
 .project-box1:hover {
-  border: 2px solid #36b37e;
-  transition: border-color 2s ease;
+  border: 3px solid #36b37e;
+  transition: border-color 1.5s ease;
+  transform: scale(1.2);
 }
 
 .project-box2 {
@@ -246,11 +248,13 @@ html {
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  transition: transform 0.2s;
 }
 
 .project-box2:hover {
-  border: 2px solid #36b37e;
-  transition: border-color 2s ease;
+  border: 3px solid #36b37e;
+  transition: border-color 1.5s ease;
+  transform: scale(1.2);
 }
 
 .project-box3 {
@@ -262,11 +266,13 @@ html {
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  transition: transform 0.2s;
 }
 
 .project-box3:hover {
-  border: 2px solid #36b37e;
-  transition: border-color 2s ease;
+  border: 3px solid #36b37e;
+  transition: border-color 1.5s ease;
+  transform: scale(1.2);
 }
 
 .project-box4 {
@@ -278,11 +284,13 @@ html {
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  transition: transform 0.2s;
 }
 
 .project-box4:hover {
-  border: 2px solid #36b37e;
-  transition: border-color 2s ease;
+  border: 3px solid #36b37e;
+  transition: border-color 1.5s ease;
+  transform: scale(1.2);
 }
 
 .project-box5 {
@@ -294,11 +302,13 @@ html {
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  transition: transform 0.2s;
 }
 
 .project-box5:hover {
-  border: 2px solid #36b37e;
-  transition: border-color 2s ease;
+  border: 3px solid #36b37e;
+  transition: border-color 1.5s ease;
+  transform: scale(1.2);
 }
 
 .project-box6 {
@@ -310,11 +320,13 @@ html {
   background: #ebf0ee;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  transition: transform 0.2s;
 }
 
 .project-box6:hover {
-  border: 2px solid #36b37e;
-  transition: border-color 2s ease;
+  border: 3px solid #36b37e;
+  transition: border-color 1.5s ease;
+  transform: scale(1.2);
 }
 
 .info-box {
@@ -564,6 +576,13 @@ html {
   border-radius: 8px;
   flex-direction: column;
   justify-content: space-evenly;
+  transition: transform 0.2s;
+}
+
+.languages:hover {
+  border: 3px solid #172b4d;
+  transition: border-color 1.5s ease;
+  transform: scale(1.2);
 }
 
 .frameworks {
@@ -578,6 +597,12 @@ html {
   justify-content: space-evenly;
 }
 
+.frameworks:hover {
+  border: 3px solid #172b4d;
+  transition: border-color 1.5s ease;
+  transform: scale(1.2);
+}
+
 .skills {
   display: flex;
   align-items: center;
@@ -588,6 +613,12 @@ html {
   border-radius: 8px;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.skills:hover {
+  border: 3px solid #172b4d;
+  transition: border-color 1.5s ease;
+  transform: scale(1.2);
 }
 
 .titles-tags {
