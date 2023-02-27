@@ -136,7 +136,7 @@ html {
     align-items: center;
     padding: 10rem 0;
     gap: 1.5rem;
-    background-image: url(../Style/Header-llustration-desktop.svg);
+    background-image: url("../Style/Header-llustration-desktop.svg");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -702,7 +702,7 @@ html {
   #about-me {
     padding: 5rem 0;
     gap: 4rem;
-    background-image: url(../Style/illustration\ about\ me\ desktop.png);
+    background-image: url("../Style/illustration\ about\ me\ desktop.png");
     background-repeat: no-repeat;
     background-position: top;
     height: 45rem;
@@ -856,7 +856,7 @@ html {
   line-height: 1.5rem;
   text-align: left;
   margin: 0.75em;
-  background-image: url(../Style/Forms/Icon\ Text\ area.svg);
+  background-image: url("../Style/Forms/Icon\ Text\ area.svg");
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -881,7 +881,7 @@ html {
     flex-direction: row;
     align-items: center;
     gap: 0;
-    background-image: url(../Style/Form-background.png);
+    background-image: url("../Style/Form-background.png");
     background-repeat: no-repeat;
     background-position: bottom;
   }
