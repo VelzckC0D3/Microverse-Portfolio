@@ -717,23 +717,20 @@ html {
   }
 
   .big-buttom {
-    padding: 0.75rem;
-    gap: 0.625rem;
-    width: 10rem;
+    padding: 1rem;
+    width: 11rem;
     height: 3.438rem;
   }
 
   .big-buttom:active {
     padding: 1rem;
-    gap: 1rem;
-    width: 11rem;
+    width: 12rem;
     height: 4rem;
   }
 
   .big-buttom:hover {
     padding: 1rem;
-    gap: 1rem;
-    width: 11rem;
+    width: 12rem;
     height: 4rem;
   }
 
