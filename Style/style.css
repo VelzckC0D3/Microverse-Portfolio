@@ -84,7 +84,7 @@ html {
   align-items: center;
   padding: 4em 1.5em;
   gap: 58px;
-  background-image: url(header-illsutration-mobile.svg);
+  background-image: url("../Style/header-illsutration-mobile.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -507,6 +507,9 @@ html {
   align-items: center;
   gap: 58px;
   padding: 4em 0;
+  background-image: url("../Style/about-me/About-me-mobile1.svg"), url("../Style/about-me/About-me-mobile2.svg");
+  background-repeat: no-repeat;
+  background-position: top 21rem left, top right;
 }
 
 #aboutmetxt {
@@ -516,9 +519,6 @@ html {
   gap: 24px;
   width: 21.938rem;
   height: 20.813rem;
-  background-image: url(illustration-\ about\ me-\ mobile.png);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .big-buttom {
@@ -702,9 +702,9 @@ html {
   #about-me {
     padding: 5rem 0;
     gap: 4rem;
-    background-image: url("../Style/illustration\ about\ me\ desktop.png");
+    background-image: url("../Style/about-me/Ilustracion-1.svg"), url("../Style/about-me/ilustracion-2.svg");
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top 12rem left, top right;
     height: 45rem;
   }
 
@@ -719,7 +719,7 @@ html {
   .big-buttom {
     padding: 0.75rem;
     gap: 0.625rem;
-    width: 9.938rem;
+    width: 10rem;
     height: 3.438rem;
   }
 
@@ -766,7 +766,7 @@ html {
   align-items: center;
   padding: 4em;
   gap: 58px;
-  background-image: url(/Style/Forms/background-form.svg);
+  background-image: url("../Style/Forms/background-form.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -881,9 +881,9 @@ html {
     flex-direction: row;
     align-items: center;
     gap: 0;
-    background-image: url("../Style/Form-background.png");
+    background-image: url("../Style/Forms/Ilustration-1-form.svg"), url("../Style/Forms/ilustration-2-form.svg"), url("../Style/Forms/Ilustration-3-form.svg");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom 0 right 0, bottom 8rem left 20rem, bottom 0 left 0;;
   }
 
   #form-main-text {
