@@ -84,7 +84,7 @@ html {
   align-items: center;
   padding: 4em 1.5em;
   gap: 58px;
-  background-image: url(header-illsutration-mobile.svg);
+  background-image: url("../Style/header-illsutration-mobile.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -499,7 +499,7 @@ html {
   .project-box6 {
     grid-area: 2 / 3 / 3 / 4;
   }
-}git
+}
 
 #about-me {
   display: flex;
@@ -507,6 +507,9 @@ html {
   align-items: center;
   gap: 58px;
   padding: 4em 0;
+  background-image: url("../Style/about-me/About-me-mobile1.svg"), url("../Style/about-me/About-me-mobile2.svg");
+  background-repeat: no-repeat;
+  background-position: top 21rem left, top right;
 }
 
 #aboutmetxt {
@@ -516,9 +519,6 @@ html {
   gap: 24px;
   width: 21.938rem;
   height: 20.813rem;
-  background-image: url(/Style/illustration-about-me-mobile.png);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .big-buttom {
@@ -712,7 +712,7 @@ html {
     padding: 0;
     gap: 1.5rem;
     width: 57.5rem;
-    height: 16rem;
+    height: 15rem;
     background-image: none;
   }
 
@@ -766,7 +766,7 @@ html {
   align-items: center;
   padding: 4em;
   gap: 58px;
-  background-image: url(/Style/Forms/background-form.svg);
+  background-image: url("../Style/Forms/background-form.svg");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
@@ -883,7 +883,7 @@ html {
     gap: 0;
     background-image: url("../Style/Forms/Ilustration-1-form.svg"), url("../Style/Forms/ilustration-2-form.svg"), url("../Style/Forms/Ilustration-3-form.svg");
     background-repeat: no-repeat;
-    background-position: bottom 0 right 0, bottom 8rem left 20rem, bottom 0 left 0;
+    background-position: bottom 0 right 0, bottom 8rem left 20rem, bottom 0 left 0;;
   }
 
   #form-main-text {
