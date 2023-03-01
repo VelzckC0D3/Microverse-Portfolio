@@ -76,6 +76,17 @@ html {
     line-height: 1.25rem;
     color: #344563;
   }
+
+  .media-icon {
+    opacity: 0.5;
+    transition: all 300ms ease-in-out;
+  }
+
+  .media-icon:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    
+  }
 }
 
 #headline {
