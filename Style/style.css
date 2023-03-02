@@ -85,7 +85,6 @@ html {
   .media-icon:hover {
     opacity: 1;
     transform: scale(1.1);
-    
   }
 }
 
@@ -186,15 +185,8 @@ html {
   }
 
   .arrow {
-    display: flex;
-    flex-direction: column;
     padding: 0.5rem;
-    width: 2.5rem;
-    height: 2.5rem;
-    background: #fff;
-    border: 1px solid #dfe1e6;
-    border-radius: 2rem;
-    align-items: center;
+    border: none;
   }
 }
 
@@ -891,7 +883,7 @@ html {
     gap: 0;
     background-image: url("../Style/Forms/Ilustration-1-form.svg"), url("../Style/Forms/ilustration-2-form.svg"), url("../Style/Forms/Ilustration-3-form.svg");
     background-repeat: no-repeat;
-    background-position: bottom 0 right 0, bottom 8rem left 20rem, bottom 0 left 0;;
+    background-position: bottom 0 right 0, bottom 8rem left 20rem, bottom 0 left 0;
   }
 
   #form-main-text {
